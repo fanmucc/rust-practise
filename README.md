@@ -80,6 +80,22 @@ i8 after overflow: -128
 - 占用 4 字节大小
 - 是 `Unicode` 标量值，可以表示比 `ASCLL` 多得多的字符内容，如：拼音、中日韩人、零长度空白字符、emoji 表情等。
 
+`&str` 字符串切片
+
+- 固定的字符串引用，通常用于字面量
+
+```jsx
+let str: str = "test";
+```
+
+`string` 堆分配，可变
+
+- 可增长，可修改的字符串
+
+```jsx
+let s: String = String::from("hello");
+```
+
 #### 单元类型（无值）：`()`
 
 单元类型  ()  在 Rust 中有几个重要的用途：
