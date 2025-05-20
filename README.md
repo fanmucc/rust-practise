@@ -26,7 +26,7 @@
 
 - 在调试模式下编译：rust 会检查整数溢出，如果发生溢出，程序在运行时就会警告
 
-![image.png](attachment:18370ac1-8e18-41ef-a6ab-6e09b3c7309c:image.png)
+![image.png](https://www.notion.so/1f9748bdb44b8082bb5ce75d63900456?pvs=4#1f9748bdb44b8009acb9f0fd52571efc)
 
 - 在发布模式下，rust 不会检查可能导致警告的整数溢出，而是会进行 `环绕操作` 即将: `256 -> 0` `257 -> 1`
 
@@ -65,7 +65,7 @@ i8 after overflow: -128
 | `f32` | 32 位 | 单精度浮点数         | `let x: f32 = 3.14;` |
 | `f64` | 64 位 | 双精度浮点数（默认） | `let x = 2.718;`     |
 
-![image.png](attachment:2745a4be-21be-404a-936a-25ff17177e2d:image.png)
+![image.png](https://www.notion.so/1f9748bdb44b8082bb5ce75d63900456?pvs=4#1f9748bdb44b808a917bf67ed0a599d4)
 
 #### 布尔类型
 
